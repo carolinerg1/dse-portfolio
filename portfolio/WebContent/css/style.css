@@ -1,0 +1,38 @@
+body{
+  	background-color: #EFEFEF;
+	margin: 50px 10px 0px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+input[type=submit] {
+		-webkit-box-shadow: inset 0px 1px 0px RGBA(255,255,255,0.6),0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+		-moz-box-shadow: inset 0px 1px 0px RGBA(255,255,255,0.6),0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+		-o-box-shadow: inset 0px 1px 0px RGBA(255,255,255,0.6),0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+		font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+		position: relative;
+		cursor: pointer;
+		display: inline-block;
+		padding: 6px 15px;
+		margin:10px 20px 10px 200px;
+		color: white;
+		line-height: 22px;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 0px 1px 0 RGBA(0,0,0,0.3);
+		overflow: hidden;
+		border: solid 1px #4D9299;
+		background: -moz-linear-gradient(top, #61DCED 0%, #1E90FF 100%);
+		background: -o-linear-gradient(top, #61DCED 0%, #1E90FF 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#61DCED), color-stop(100%,#1E90FF));
+		border-radius: 5px;
+		-webkit-font-smoothing: antialiased;
+		font-size:16px;
+		white-space:nowrap;
+		width: 110px;
+		height:35px;
+
+}
+#btnAnalyze {margin-left: 50px;}
+#txtSearch {width: 500px;padding: 5px; border: 1px solid #0ff;}
+#txtSuggestions {width: 500px; height: 200px; border: 1px solid #f00;}
